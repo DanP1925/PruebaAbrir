@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TestAbrir.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{8588EE0C-4064-419B-BFF5-8487CC225803}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TestAbrir.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TestAbrirEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2E817B06-30E6-4B40-9179-553FE58673C0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TestAbrir">
+      <UniqueIdentifier>{82D78740-DF07-4710-9E33-A463F3211F26}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TestAbrir\TestAbrir.Build.cs">
+      <Filter>Source\TestAbrir</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TestAbrir\TestAbrir.cpp">
+      <Filter>Source\TestAbrir</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestAbrir\TestAbrir.h">
+      <Filter>Source\TestAbrir</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestAbrir\TestAbrirGameModeBase.cpp">
+      <Filter>Source\TestAbrir</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestAbrir\TestAbrirGameModeBase.h">
+      <Filter>Source\TestAbrir</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TestAbrir\ReadStuff.h">
+      <Filter>Source\TestAbrir</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TestAbrir\ReadStuff.cpp">
+      <Filter>Source\TestAbrir</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

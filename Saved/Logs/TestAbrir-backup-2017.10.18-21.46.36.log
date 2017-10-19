@@ -1,0 +1,691 @@
+﻿Log file open, 10/18/17 17:17:21
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: TestAbrir
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1883968743) SRandInit(1883968743).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.503686
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.18-22.17.25:699][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.18-22.17.25:699][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.18-22.17.25:891][  0]LogInit: Computer: X550L
+[2017.10.18-22.17.25:891][  0]LogInit: User: Daniel
+[2017.10.18-22.17.25:891][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.10.18-22.17.25:891][  0]LogInit: High frequency timer resolution =2.338340 MHz
+[2017.10.18-22.17.25:891][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2017.10.18-22.17.25:891][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.18-22.17.25:891][  0]LogMemory: Process Physical Memory: 277.63 MB used, 277.63 MB peak
+[2017.10.18-22.17.25:891][  0]LogMemory: Process Virtual Memory: 274.02 MB used, 274.02 MB peak
+[2017.10.18-22.17.25:891][  0]LogMemory: Physical Memory: 3588.28 MB used,  2439.12 MB free, 6027.40 MB total
+[2017.10.18-22.17.25:891][  0]LogMemory: Virtual Memory: 665.04 MB used,  2439.12 MB free, 134217728.00 MB total
+[2017.10.18-22.17.28:559][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.10.18-22.17.28:559][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.10.18-22.17.56:328][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.18-22.17.56:870][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 820M' (Feature Level 11_0)
+[2017.10.18-22.17.56:870][  0]LogD3D11RHI:       2000/0/3013 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.18-22.17.57:037][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.10.18-22.17.57:037][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.18-22.17.57:057][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.18-22.17.57:057][  0]LogD3D11RHI:       0/0/3013 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.18-22.17.57:057][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.18-22.17.57:065][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.18-22.17.57:065][  0]LogD3D11RHI:     GPU DeviceId: 0x1140 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.18-22.17.57:065][  0]LogWindows: EnumDisplayDevices:
+[2017.10.18-22.17.57:065][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.10.18-22.17.57:066][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.10.18-22.17.57:066][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.10.18-22.17.57:066][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.10.18-22.17.57:066][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 820M
+[2017.10.18-22.17.57:066][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.10.18-22.17.57:066][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.10.18-22.17.57:066][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.18-22.17.57:096][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.10.18-22.17.57:096][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.18-22.17.57:115][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.18-22.17.57:116][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Intermediate/Shaders/WorkingDirectory/13868/).
+[2017.10.18-22.17.57:116][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Daniel/AppData/Local/Temp/UnrealShaderWorkingDir/89F73E1943C07ED8A56E79A2A6CF9FF6/'.
+[2017.10.18-22.17.57:116][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.18-22.18.20:384][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.18-22.18.20:470][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.18-22.18.20:548][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.18-22.18.20:656][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.18-22.18.20:899][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.18-22.18.21:028][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.18-22.18.21:138][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.18-22.18.21:233][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.18-22.18.21:389][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.18-22.18.21:579][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.18-22.18.21:697][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.18-22.18.21:944][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.18-22.18.22:078][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.18-22.18.22:235][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.18-22.18.22:519][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.18-22.18.23:211][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.18-22.18.23:211][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.18-22.18.24:210][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.18-22.18.24:583][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.18-22.18.24:627][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.18-22.18.24:753][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.18-22.18.24:884][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.18-22.18.25:031][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.18-22.18.25:309][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.18-22.18.25:309][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.18-22.18.30:637][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.18-22.19.16:436][  0]LogDerivedDataCache: Loaded boot cache 45.80s 93MB C:/Users/Daniel/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.18-22.19.16:436][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Daniel/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.18-22.19.16:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.18-22.19.16:436][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.18-22.19.16:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.18-22.19.16:436][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.18-22.19.16:458][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.18-22.19.16:471][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Daniel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.18-22.19.16:485][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.18-22.19.16:486][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.18-22.19.16:593][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.18-22.19.16:593][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.18-22.19.43:216][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
+[2017.10.18-22.19.43:381][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.18-22.19.45:074][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.18-22.19.47:138][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.18-22.19.47:481][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.18-22.19.47:481][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.18-22.19.47:481][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.18-22.19.47:481][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.18-22.19.47:481][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.18-22.19.48:356][  0]LogNetVersion: TestAbrir , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2724631197)
+[2017.10.18-22.19.48:734][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.029217 seconds
+[2017.10.18-22.19.48:743][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.18-22.19.48:743][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.18-22.19.48:743][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.18-22.19.48:949][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.18-22.21.52:654][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.18-22.21.52:736][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.18-22.21.57:108][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.18-22.21.58:514][  0]SourceControl: Source control is disabled
+[2017.10.18-22.21.58:514][  0]SourceControl: Source control is disabled
+[2017.10.18-22.21.58:709][  0]SourceControl: Source control is disabled
+[2017.10.18-22.21.58:902][  0]SourceControl: Source control is disabled
+[2017.10.18-22.22.00:920][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.18-22.22.01:614][  0]LogOcInput: OculusInput pre-init called
+[2017.10.18-22.22.02:167][  0]LogEngine: Initializing Engine...
+[2017.10.18-22.22.02:170][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.18-22.22.02:540][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.18-22.22.02:540][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.18-22.22.02:940][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.18-22.22.02:980][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-22.22.03:036][  0]LogInit: FAudioDevice initialized.
+[2017.10.18-22.22.04:078][  0]LogDerivedDataCache: Saved boot cache 1.04s 93MB C:/Users/Daniel/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.18-22.22.04:101][  0]LogInit: Texture streaming: Enabled
+[2017.10.18-22.22.04:413][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.18-22.22.05:438][  0]LogInit: Transaction tracking system initialized
+[2017.10.18-22.22.07:850][  0]BlueprintLog: New page: Editor Load
+[2017.10.18-22.22.10:675][  0]LocalizationService: Localization service is disabled
+[2017.10.18-22.22.12:251][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2017.10.18-22.22.12:251][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2017.10.18-22.22.12:251][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2017.10.18-22.22.13:496][  0]LogConsoleResponse: Display: 
+[2017.10.18-22.22.16:298][  0]LogFileCache: Scanning file cache for directory 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Content/' took 0.01s
+[2017.10.18-22.22.16:298][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.18-22.22.16:299][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.18-22.22.16:299][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.18-22.22.20:573][  0]SourceControl: Source control is disabled
+[2017.10.18-22.22.20:573][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.18-22.22.20:574][  0]LightingResults: New page: Lighting Build
+[2017.10.18-22.22.20:649][  0]MapCheck: New page: Map Check
+[2017.10.18-22.22.20:649][  0]LightingResults: New page: Lighting Build
+[2017.10.18-22.22.21:055][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.18-22.22.21:080][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.18-22.22.21:107][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.18-22.22.21:246][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 138.802ms to complete.
+[2017.10.18-22.22.21:246][  0]LogFileHelpers: Loading map 'Template_Default' took 0.673
+[2017.10.18-22.22.25:012][  0]LogCollectionManager: Loaded 0 collections in 0.001853 seconds
+[2017.10.18-22.22.26:422][  0]LogFileCache: Scanning file cache for directory 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/Collections/' took 0.01s
+[2017.10.18-22.22.26:422][  0]LogFileCache: Scanning file cache for directory 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Content/Developers/Daniel/Collections/' took 0.01s
+[2017.10.18-22.22.26:422][  0]LogFileCache: Scanning file cache for directory 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Content/Collections/' took 0.01s
+[2017.10.18-22.22.26:422][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.10.18-22.22.26:480][  0]LogContentBrowser: Native class hierarchy populated in 0.0554 seconds. Added 2387 classes and 502 folders.
+[2017.10.18-22.22.27:153][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0032 seconds. Added 0 classes and 0 folders.
+[2017.10.18-22.22.33:782][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2017.10.18-22.22.37:563][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2017.10.18-22.22.40:424][  0]LogSlate: Took 0.041245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.18-22.22.40:592][  0]LogSlate: Took 0.033180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.18-22.22.40:772][  0]LogSlate: Took 0.032036 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.18-22.22.40:844][  0]LogSlate: Took 0.052628 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.10.18-22.22.42:514][  0]LogRenderer: Reallocating scene render targets to support 1076x448 Format 9 NumSamples 1 (Frame:1).
+[2017.10.18-22.22.47:558][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2017.10.18-22.22.47:559][  0]LogLoad: (Engine Initialization) Total time: 341.41 seconds
+[2017.10.18-22.22.47:559][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.18-22.22.47:559][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.18-22.22.47:560][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.18-22.22.48:228][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.10.18-22.22.49:183][  3]LogAssetRegistry: Asset discovery search completed in 185.9880 seconds
+[2017.10.18-22.22.49:185][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.18-22.22.49:186][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000245 seconds (updated 0 objects)
+[2017.10.18-22.27.50:075][684]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.18-22.27.51:041][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.18-22.27.51:721][684]PIE: New page: PIE session: Untitled_1 (Oct 18, 2017, 12:27:51 PM)
+[2017.10.18-22.27.51:838][684]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.10.18-22.27.52:015][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.176564s)
+[2017.10.18-22.27.52:016][684]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.18-22.27.52:059][684]LogPlayLevel: PIE: World Init took: (0.043769s)
+[2017.10.18-22.27.52:164][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.326063s)
+[2017.10.18-22.27.52:369][684]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-22.27.52:805][684]LogInit: FAudioDevice initialized.
+[2017.10.18-22.27.53:473][684]LogLoad: Game class is 'GameModeBase'
+[2017.10.18-22.27.54:692][684]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 3) at 2017.10.18-17.27.54
+[2017.10.18-22.27.55:149][684]LogWorld: Bringing up level for play took: 0.493235
+[2017.10.18-22.27.57:988][684]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0038 seconds. Added 11 classes and 0 folders.
+[2017.10.18-22.27.58:730][684]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 7.743
+[2017.10.18-22.30.36:699][136]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.18-22.30.36:717][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.18-22.30.36:718][136]PIE: New page: PIE session: Untitled_1 (Oct 18, 2017, 12:30:36 PM)
+[2017.10.18-22.30.36:718][136]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.10.18-22.30.36:724][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005053s)
+[2017.10.18-22.30.36:726][136]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.18-22.30.36:727][136]LogPlayLevel: PIE: World Init took: (0.003026s)
+[2017.10.18-22.30.36:728][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.009432s)
+[2017.10.18-22.30.36:756][136]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-22.30.36:771][136]LogInit: FAudioDevice initialized.
+[2017.10.18-22.30.36:829][136]LogLoad: Game class is 'GameModeBase'
+[2017.10.18-22.30.36:832][136]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.10.18-17.30.36
+[2017.10.18-22.30.36:833][136]LogWorld: Bringing up level for play took: 0.002314
+[2017.10.18-22.30.36:835][136]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.153
+[2017.10.18-22.31.19:276][723]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.10.18-22.31.23:953][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.18-22.31.25:744][ 25]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.18-22.31.25:756][ 25]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.18-22.31.25:756][ 25]PIE: New page: PIE session: Untitled_1 (Oct 18, 2017, 12:31:25 PM)
+[2017.10.18-22.31.25:756][ 25]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.10.18-22.31.25:759][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002512s)
+[2017.10.18-22.31.25:761][ 25]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.18-22.31.25:761][ 25]LogPlayLevel: PIE: World Init took: (0.001554s)
+[2017.10.18-22.31.25:762][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005252s)
+[2017.10.18-22.31.25:814][ 25]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-22.31.25:845][ 25]LogInit: FAudioDevice initialized.
+[2017.10.18-22.31.25:883][ 25]LogLoad: Game class is 'GameModeBase'
+[2017.10.18-22.31.25:885][ 25]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.10.18-17.31.25
+[2017.10.18-22.31.25:885][ 25]LogWorld: Bringing up level for play took: 0.001747
+[2017.10.18-22.31.25:887][ 25]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.9
+[2017.10.18-22.36.25:420][211]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.18-22.36.59:245][446]LogUProjectInfo: Found projects:
+[2017.10.18-22.37.25:267][934]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TestAbrir
+[2017.10.18-22.37.25:276][934]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.18-22.37.25:277][934]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.18-22.37.25:277][934]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.18-22.37.25:297][934]LogTemp: BranchPath = X550L/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = X550L/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.18-22.37.25:513][938]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Daniel\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.18-22.37.50:820][372]LogSlate: Took 0.026634 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.18-22.38.15:292][591]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TestAbrir
+[2017.10.18-22.38.15:292][591]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.18-22.38.15:292][591]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.18-22.38.15:292][591]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.18-22.38.15:300][591]LogTemp: BranchPath = X550L/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = X550L/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.18-22.38.15:319][591]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Daniel\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.18-22.38.56:627][258]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.18-22.38.56:647][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.18-22.38.56:647][258]PIE: New page: PIE session: Untitled_1 (Oct 18, 2017, 12:38:56 PM)
+[2017.10.18-22.38.56:648][258]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.10.18-22.38.56:652][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003996s)
+[2017.10.18-22.38.56:654][258]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.18-22.38.56:655][258]LogPlayLevel: PIE: World Init took: (0.002566s)
+[2017.10.18-22.38.56:656][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007908s)
+[2017.10.18-22.38.56:693][258]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-22.38.56:714][258]LogInit: FAudioDevice initialized.
+[2017.10.18-22.38.56:755][258]LogLoad: Game class is 'GameModeBase'
+[2017.10.18-22.38.56:758][258]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.10.18-17.38.56
+[2017.10.18-22.38.56:759][258]LogWorld: Bringing up level for play took: 0.002893
+[2017.10.18-22.38.56:762][258]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.225
+[2017.10.18-22.40.22:894][800]LogSlate: Took 0.000568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.18-22.40.32:751][553]LogSlate: Took 0.015924 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.18-22.40.42:619][167]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.18-22.40.42:937][167]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0034 seconds. Added 113 classes and 0 folders.
+[2017.10.18-22.40.46:038][167]LogRenderer: Reallocating scene render targets to support 1076x588 Format 9 NumSamples 1 (Frame:1).
+[2017.10.18-22.41.10:497][788]LogSlate: Took 0.000586 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.18-22.41.19:555][100]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.082
+[2017.10.18-22.41.19:602][100]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewGameMode] ([1] browsable assets)...
+[2017.10.18-22.41.19:610][100]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewGameMode]
+[2017.10.18-22.41.19:610][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewGameMode" FILE="D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/Autosaves/Game/NewGameMode_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.18-22.41.19:779][100]LogSavePackage: Save=139.95ms
+[2017.10.18-22.41.19:779][100]LogSavePackage: Moving 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/NewGameMode_Auto117491D71417C5C163B1AA6A6C59EA450.tmp' to 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/Autosaves/Game/NewGameMode_Auto1.uasset'
+[2017.10.18-22.41.19:788][100]LogSavePackage: Display: Finished SavePackage D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/Autosaves/Game/NewGameMode_Auto1.uasset
+[2017.10.18-22.41.19:801][100]LogFileHelpers: Auto-saving content packages took 0.232
+[2017.10.18-22.41.45:038][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewGameMode" FILE="D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Content/NewGameMode.uasset" SILENT=true
+[2017.10.18-22.41.45:068][ 12]LogSavePackage: Save=15.44ms
+[2017.10.18-22.41.45:068][ 12]LogSavePackage: Moving 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/NewGameMode2DC840D14B4CE6780ED5668CEE01BDAE.tmp' to 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Content/NewGameMode.uasset'
+[2017.10.18-22.41.45:073][ 12]LogSavePackage: Display: Finished SavePackage D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Content/NewGameMode.uasset
+[2017.10.18-22.41.53:963][598]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.18-22.41.53:977][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.18-22.41.53:977][598]PIE: New page: PIE session: Untitled_1 (Oct 18, 2017, 12:41:53 PM)
+[2017.10.18-22.41.53:978][598]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.10.18-22.41.53:981][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003405s)
+[2017.10.18-22.41.53:983][598]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.18-22.41.53:983][598]LogPlayLevel: PIE: World Init took: (0.001853s)
+[2017.10.18-22.41.53:984][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006213s)
+[2017.10.18-22.41.54:044][598]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-22.41.54:057][598]LogInit: FAudioDevice initialized.
+[2017.10.18-22.41.54:093][598]LogLoad: Game class is 'GameModeBase'
+[2017.10.18-22.41.54:095][598]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.10.18-17.41.54
+[2017.10.18-22.41.54:095][598]LogWorld: Bringing up level for play took: 0.001856
+[2017.10.18-22.41.54:097][598]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.11
+[2017.10.18-22.42.05:200][329]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TestAbrir
+[2017.10.18-22.42.05:200][329]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.18-22.42.05:201][329]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.18-22.42.05:201][329]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.18-22.42.05:206][329]LogTemp: BranchPath = X550L/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = X550L/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.18-22.42.05:227][329]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Daniel\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.18-22.42.16:702][688]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.18-22.42.30:861][494]Candidate modules for hot reload:
+[2017.10.18-22.42.30:861][494]  TestAbrir
+[2017.10.18-22.42.30:862][494]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe TestAbrir -ModuleWithSuffix TestAbrir 4262 Win64 Development -editorrecompile -canskiplink "D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/TestAbrir.uproject" ]
+[2017.10.18-22.42.30:896][494]Warning: Starting HotReload took  0.5s.
+[2017.10.18-22.42.54:702][659]CompilerResultsLog: New page: Compilation - Oct 18, 2017, 12:42:54 PM
+[2017.10.18-22.42.54:702][659]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2017.10.18-22.42.54:702][659]CompilerResultsLog: Compiling game modules for hot reload
+[2017.10.18-22.42.54:702][659]CompilerResultsLog: Target is up to date
+[2017.10.18-22.42.54:702][659]CompilerResultsLog: Total build time: 22.54 seconds (NoActionsToExecute executor: 0.01 seconds)
+[2017.10.18-22.42.54:747][659]LogMainFrame: MainFrame: Module compiling took 23.953 seconds
+[2017.10.18-22.42.56:005][659]LogContentBrowser: Native class hierarchy populated in 0.0262 seconds. Added 2389 classes and 506 folders.
+[2017.10.18-22.42.56:049][659]Display: HotReload took 25.7s.
+[2017.10.18-22.44.37:417][400]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.18-22.44.37:431][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.18-22.44.37:431][400]PIE: New page: PIE session: Untitled_1 (Oct 18, 2017, 12:44:37 PM)
+[2017.10.18-22.44.37:432][400]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.10.18-22.44.37:435][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003222s)
+[2017.10.18-22.44.37:437][400]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.18-22.44.37:438][400]LogPlayLevel: PIE: World Init took: (0.002099s)
+[2017.10.18-22.44.37:438][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006260s)
+[2017.10.18-22.44.37:537][400]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-22.44.37:550][400]LogInit: FAudioDevice initialized.
+[2017.10.18-22.44.37:586][400]LogLoad: Game class is 'NewGameMode_C'
+[2017.10.18-22.44.37:588][400]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.10.18-17.44.37
+[2017.10.18-22.44.37:589][400]LogWorld: Bringing up level for play took: 0.001978
+[2017.10.18-22.44.37:591][400]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.603
+[2017.10.18-22.45.32:646][ 34]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.18-22.45.32:666][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.18-22.45.32:667][ 34]PIE: New page: PIE session: Untitled_1 (Oct 18, 2017, 12:45:32 PM)
+[2017.10.18-22.45.32:667][ 34]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.10.18-22.45.32:672][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004593s)
+[2017.10.18-22.45.32:675][ 34]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.18-22.45.32:675][ 34]LogPlayLevel: PIE: World Init took: (0.002616s)
+[2017.10.18-22.45.32:676][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008740s)
+[2017.10.18-22.45.32:730][ 34]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-22.45.32:745][ 34]LogInit: FAudioDevice initialized.
+[2017.10.18-22.45.32:782][ 34]LogLoad: Game class is 'NewGameMode_C'
+[2017.10.18-22.45.32:785][ 34]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.10.18-17.45.32
+[2017.10.18-22.45.32:786][ 34]LogWorld: Bringing up level for play took: 0.002350
+[2017.10.18-22.45.32:788][ 34]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.199
+[2017.10.18-22.45.54:638][302]Cmd: DUPLICATE
+[2017.10.18-22.45.54:638][302]Cmd: ACTOR DUPLICATE
+[2017.10.18-22.45.55:149][302]LogUObjectHash: Warning: Ambiguous search, could be FloatingPawnMovement /Script/Engine.Default__DefaultPawn:MovementComponent0 or SpectatorPawnMovement /Script/Engine.Default__SpectatorPawn:MovementComponent0
+[2017.10.18-22.45.55:149][302]LogUObjectHash: Warning: Ambiguous search, could be FloatingPawnMovement /Script/Engine.Default__DefaultPawn:MovementComponent0 or SpectatorPawnMovement /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.SpectatorPawn_0.MovementComponent0
+[2017.10.18-22.45.55:150][302]LogUObjectHash: Warning: Ambiguous search, could be FloatingPawnMovement /Script/Engine.Default__DefaultPawn:MovementComponent0 or FloatingPawnMovement /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.DefaultPawn_0.MovementComponent0
+[2017.10.18-22.45.55:150][302]LogUObjectHash: Warning: Ambiguous search, could be FloatingPawnMovement /Script/Engine.Default__DefaultPawn:MovementComponent0 or FloatingPawnMovement /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.DefaultPawn_1.MovementComponent0
+[2017.10.18-22.46.09:382][903]Cmd: TRANSACTION UNDO
+[2017.10.18-22.46.09:383][903]LogEditorTransaction: Undo Rename Actor
+[2017.10.18-22.46.10:089][963]Cmd: TRANSACTION UNDO
+[2017.10.18-22.46.10:089][963]LogEditorTransaction: Undo Duplicate Actors
+[2017.10.18-22.47.36:514][687]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.18-22.47.36:530][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.18-22.47.36:531][687]PIE: New page: PIE session: Untitled_1 (Oct 18, 2017, 12:47:36 PM)
+[2017.10.18-22.47.36:531][687]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.10.18-22.47.36:534][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002599s)
+[2017.10.18-22.47.36:535][687]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.18-22.47.36:536][687]LogPlayLevel: PIE: World Init took: (0.001658s)
+[2017.10.18-22.47.36:536][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005151s)
+[2017.10.18-22.47.36:592][687]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-22.47.36:611][687]LogInit: FAudioDevice initialized.
+[2017.10.18-22.47.36:656][687]LogLoad: Game class is 'NewGameMode_C'
+[2017.10.18-22.47.36:658][687]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.10.18-17.47.36
+[2017.10.18-22.47.36:659][687]LogWorld: Bringing up level for play took: 0.002124
+[2017.10.18-22.47.36:662][687]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.326
+[2017.10.18-22.48.00:869][399]Cmd: DUPLICATE
+[2017.10.18-22.48.00:869][399]Cmd: ACTOR DUPLICATE
+[2017.10.18-22.48.00:879][399]LogUObjectHash: Warning: Ambiguous search, could be FloatingPawnMovement /Script/Engine.Default__DefaultPawn:MovementComponent0 or SpectatorPawnMovement /Script/Engine.Default__SpectatorPawn:MovementComponent0
+[2017.10.18-22.48.00:879][399]LogUObjectHash: Warning: Ambiguous search, could be FloatingPawnMovement /Script/Engine.Default__DefaultPawn:MovementComponent0 or SpectatorPawnMovement /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.SpectatorPawn_0.MovementComponent0
+[2017.10.18-22.48.00:880][399]LogUObjectHash: Warning: Ambiguous search, could be FloatingPawnMovement /Script/Engine.Default__DefaultPawn:MovementComponent0 or FloatingPawnMovement /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.DefaultPawn_0.MovementComponent0
+[2017.10.18-22.48.00:880][399]LogUObjectHash: Warning: Ambiguous search, could be FloatingPawnMovement /Script/Engine.Default__DefaultPawn:MovementComponent0 or FloatingPawnMovement /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.DefaultPawn_1.MovementComponent0
+[2017.10.18-22.48.04:729][843]Cmd: TRANSACTION UNDO
+[2017.10.18-22.48.04:729][843]LogEditorTransaction: Undo Duplicate Actors
+[2017.10.18-22.48.22:935][846]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.18-22.48.22:950][846]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.18-22.48.22:950][846]PIE: New page: PIE session: Untitled_1 (Oct 18, 2017, 12:48:22 PM)
+[2017.10.18-22.48.22:950][846]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.10.18-22.48.22:954][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003147s)
+[2017.10.18-22.48.22:956][846]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.18-22.48.22:956][846]LogPlayLevel: PIE: World Init took: (0.002098s)
+[2017.10.18-22.48.22:957][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006731s)
+[2017.10.18-22.48.23:007][846]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-22.48.23:022][846]LogInit: FAudioDevice initialized.
+[2017.10.18-22.48.23:062][846]LogLoad: Game class is 'NewGameMode_C'
+[2017.10.18-22.48.23:065][846]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.10.18-17.48.23
+[2017.10.18-22.48.23:066][846]LogWorld: Bringing up level for play took: 0.002340
+[2017.10.18-22.48.23:068][846]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.08
+[2017.10.18-22.48.38:680][605]Cmd: SELECT NONE
+[2017.10.18-22.55.19:414][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_Blueprint" FILE="D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Content/DefaultPawn_Blueprint.uasset" SILENT=true
+[2017.10.18-22.55.19:504][493]LogSavePackage: Save=87.65ms
+[2017.10.18-22.55.19:505][493]LogSavePackage: Moving 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/DefaultPawn_Blueprint5183D6E14347839A01621F8038FE4B05.tmp' to 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Content/DefaultPawn_Blueprint.uasset'
+[2017.10.18-22.55.19:509][493]LogSavePackage: Display: Finished SavePackage D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Content/DefaultPawn_Blueprint.uasset
+[2017.10.18-22.55.35:332][855]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TestAbrir
+[2017.10.18-22.55.35:332][855]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.18-22.55.35:332][855]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.18-22.55.35:332][855]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.18-22.55.35:347][856]LogTemp: BranchPath = X550L/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = X550L/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.18-22.55.35:751][861]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Daniel\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.18-22.56.25:992][535]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.18-22.56.50:109][507]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.18-22.56.54:679][787]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.18-22.56.54:692][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.18-22.56.54:693][787]PIE: New page: PIE session: Untitled_1 (Oct 18, 2017, 12:56:54 PM)
+[2017.10.18-22.56.54:693][787]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.10.18-22.56.54:696][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002576s)
+[2017.10.18-22.56.54:697][787]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.18-22.56.54:698][787]LogPlayLevel: PIE: World Init took: (0.002124s)
+[2017.10.18-22.56.54:699][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005671s)
+[2017.10.18-22.56.54:734][787]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-22.56.54:747][787]LogInit: FAudioDevice initialized.
+[2017.10.18-22.56.54:781][787]LogLoad: Game class is 'NewGameMode_C'
+[2017.10.18-22.56.54:783][787]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.10.18-17.56.54
+[2017.10.18-22.56.54:784][787]LogWorld: Bringing up level for play took: 0.001954
+[2017.10.18-22.56.54:815][787]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.172
+[2017.10.18-22.58.11:118][591]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.18-22.58.36:424][802]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TestAbrir
+[2017.10.18-22.58.36:424][802]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.18-22.58.36:424][802]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.18-22.58.36:424][802]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.18-22.58.36:429][802]LogTemp: BranchPath = X550L/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = X550L/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.18-22.58.36:449][802]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Daniel\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.18-23.00.19:526][182]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.034
+[2017.10.18-23.00.19:530][182]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewGameMode] ([1] browsable assets)...
+[2017.10.18-23.00.19:530][182]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewGameMode]
+[2017.10.18-23.00.19:530][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewGameMode" FILE="D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/Autosaves/Game/NewGameMode_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.10.18-23.00.19:565][182]LogSavePackage: Save=29.78ms
+[2017.10.18-23.00.19:565][182]LogSavePackage: Moving 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/NewGameMode_Auto2125CDDBA44F73C048507279BB6B5281F.tmp' to 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/Autosaves/Game/NewGameMode_Auto2.uasset'
+[2017.10.18-23.00.19:566][182]LogSavePackage: Display: Finished SavePackage D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/Autosaves/Game/NewGameMode_Auto2.uasset
+[2017.10.18-23.00.19:567][182]LogFileHelpers: Auto-saving content packages took 0.038
+[2017.10.18-23.01.21:412][685]Running C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe TestAbrir Win64 Development -editorrecompile "D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/TestAbrir.uproject" -invalidatemakefilesonly
+[2017.10.18-23.01.21:821][685]Invalidating makefiles only in this run.
+[2017.10.18-23.01.21:965][685]Candidate modules for hot reload:
+[2017.10.18-23.01.21:965][685]  TestAbrir
+[2017.10.18-23.01.21:965][685]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe TestAbrir -ModuleWithSuffix TestAbrir 7750 Win64 Development -editorrecompile -canskiplink "D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/TestAbrir.uproject" ]
+[2017.10.18-23.02.27:431][685]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.18-23.02.27:431][685]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.18-23.02.36:401][685]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.18-23.02.36:401][685]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.18-23.04.33:066][685]CompilerResultsLog: New page: Compilation - Oct 18, 2017, 1:04:33 PM
+[2017.10.18-23.04.33:066][685]CompilerResultsLog: Compiling game modules for hot reload
+[2017.10.18-23.04.33:067][685]CompilerResultsLog: Parsing headers for TestAbrirEditor
+[2017.10.18-23.04.33:067][685]CompilerResultsLog:   Running UnrealHeaderTool "D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\TestAbrir.uproject" "D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\TestAbrirEditor\Development\TestAbrirEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.10.18-23.04.33:067][685]CompilerResultsLog: Reflection code generated for TestAbrirEditor in 19.8832701 seconds
+[2017.10.18-23.04.33:067][685]CompilerResultsLog: Performing 5 actions (2 in parallel)
+[2017.10.18-23.04.33:068][685]CompilerResultsLog: ReadStuff.gen.cpp
+[2017.10.18-23.04.33:068][685]CompilerResultsLog: ReadStuff.cpp
+[2017.10.18-23.04.33:068][685]CompilerResultsLog: TestAbrir.init.gen.cpp
+[2017.10.18-23.04.33:068][685]CompilerResultsLog: [4/5] Link UE4Editor-TestAbrir-7750.dll
+[2017.10.18-23.04.33:068][685]CompilerResultsLog: [5/5] Link UE4Editor-TestAbrir-7750.lib
+[2017.10.18-23.04.33:068][685]CompilerResultsLog:    Creando biblioteca D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-7750.lib y objeto D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-7750.exp
+[2017.10.18-23.04.33:069][685]CompilerResultsLog:    Creando biblioteca D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-7750.suppressed.lib y objeto D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-7750.suppressed.exp
+[2017.10.18-23.04.33:069][685]CompilerResultsLog: Total build time: 190.57 seconds (Local executor: 158.05 seconds)
+[2017.10.18-23.04.33:069][685]LogMainFrame: MainFrame: Module compiling took 191.109 seconds
+[2017.10.18-23.04.35:031][685]LogClass: Could not find existing class ReadStuff in package /Script/TestAbrir for HotReload, assuming new class
+[2017.10.18-23.04.35:037][685]LogContentBrowser: Native class hierarchy updated for 'TestAbrir' in 0.0022 seconds. Added 2 classes and 2 folders.
+[2017.10.18-23.04.35:051][685]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.10.18-23.04.35:805][685]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2390 classes and 506 folders.
+[2017.10.18-23.04.35:805][685]Display: HotReload took 193.9s.
+[2017.10.18-23.04.35:806][685]Warning: HotReload operation took 193.9s.
+[2017.10.18-23.04.41:037][685]LogVSAccessor: Warning: Couldn't goto line number '0' in 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Source/TestAbrir/ReadStuff.h'
+[2017.10.18-23.04.42:251][685]LogVSAccessor: Warning: Couldn't open file 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Source/TestAbrir/ReadStuff.cpp'.
+[2017.10.18-23.04.42:863][686]LogHotReload: New module detected: UE4Editor-TestAbrir-7750.dll
+[2017.10.18-23.04.42:918][687]LogHotReload: Starting Hot-Reload from IDE
+[2017.10.18-23.04.43:085][687]LogContentBrowser: Native class hierarchy updated for 'TestAbrir' in 0.0020 seconds. Added 2 classes and 2 folders.
+[2017.10.18-23.04.43:089][687]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.10.18-23.04.43:542][687]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2390 classes and 506 folders.
+[2017.10.18-23.04.43:546][687]Display: HotReload took  0.6s.
+[2017.10.18-23.10.20:935][846]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.105
+[2017.10.18-23.10.20:939][846]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DefaultPawn_Blueprint] ([1] browsable assets)...
+[2017.10.18-23.10.20:966][846]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DefaultPawn_Blueprint.DefaultPawn_Blueprint]
+[2017.10.18-23.10.20:967][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/DefaultPawn_Blueprint]
+[2017.10.18-23.10.20:967][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_Blueprint" FILE="D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/Autosaves/Game/DefaultPawn_Blueprint_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.10.18-23.10.21:109][846]LogSavePackage: Save=97.36ms
+[2017.10.18-23.10.21:110][846]LogSavePackage: Moving 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/DefaultPawn_Blueprint_Auto37E13CA52443A3688997ED2A3860471C5.tmp' to 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/Autosaves/Game/DefaultPawn_Blueprint_Auto3.uasset'
+[2017.10.18-23.10.21:113][846]LogSavePackage: Display: Finished SavePackage D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/Autosaves/Game/DefaultPawn_Blueprint_Auto3.uasset
+[2017.10.18-23.10.21:116][846]LogFileHelpers: Auto-saving content packages took 0.179
+[2017.10.18-23.10.43:488][914]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.18-23.10.43:488][914]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.18-23.10.45:217][999]Candidate modules for hot reload:
+[2017.10.18-23.10.45:217][999]  TestAbrir
+[2017.10.18-23.10.45:217][999]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe TestAbrir -ModuleWithSuffix TestAbrir 2873 Win64 Development -editorrecompile -canskiplink "D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/TestAbrir.uproject" ]
+[2017.10.18-23.10.45:239][999]Warning: Starting HotReload took  0.1s.
+[2017.10.18-23.14.37:996][688]CompilerResultsLog: New page: Compilation - Oct 18, 2017, 1:14:37 PM
+[2017.10.18-23.14.37:996][688]CompilerResultsLog: Compiling game modules for hot reload
+[2017.10.18-23.14.37:996][688]CompilerResultsLog: Parsing headers for TestAbrirEditor
+[2017.10.18-23.14.37:996][688]CompilerResultsLog:   Running UnrealHeaderTool "D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\TestAbrir.uproject" "D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\TestAbrirEditor\Development\TestAbrirEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.10.18-23.14.37:997][688]CompilerResultsLog: Reflection code generated for TestAbrirEditor in 15.7536491 seconds
+[2017.10.18-23.14.37:997][688]CompilerResultsLog: Performing 4 actions (2 in parallel)
+[2017.10.18-23.14.37:997][688]CompilerResultsLog: ReadStuff.gen.cpp
+[2017.10.18-23.14.37:997][688]CompilerResultsLog: ReadStuff.cpp
+[2017.10.18-23.14.37:997][688]CompilerResultsLog: [3/4] Link UE4Editor-TestAbrir-2873.dll
+[2017.10.18-23.14.37:997][688]CompilerResultsLog: [4/4] Link UE4Editor-TestAbrir-2873.lib
+[2017.10.18-23.14.37:997][688]CompilerResultsLog:    Creando biblioteca D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-2873.lib y objeto D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-2873.exp
+[2017.10.18-23.14.37:998][688]CompilerResultsLog:    Creando biblioteca D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-2873.suppressed.lib y objeto D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-2873.suppressed.exp
+[2017.10.18-23.14.37:998][688]CompilerResultsLog: Total build time: 231.56 seconds (Local executor: 113.70 seconds)
+[2017.10.18-23.14.37:998][688]LogMainFrame: MainFrame: Module compiling took 232.784 seconds
+[2017.10.18-23.14.39:723][688]LogContentBrowser: Native class hierarchy updated for 'TestAbrir' in 0.0029 seconds. Added 2 classes and 2 folders.
+[2017.10.18-23.14.39:726][688]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.10.18-23.14.40:781][688]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2390 classes and 506 folders.
+[2017.10.18-23.14.40:781][688]Display: HotReload took 235.6s.
+[2017.10.18-23.19.35:218][647]Candidate modules for hot reload:
+[2017.10.18-23.19.35:218][647]  TestAbrir
+[2017.10.18-23.19.35:219][647]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe TestAbrir -ModuleWithSuffix TestAbrir 6380 Win64 Development -editorrecompile -canskiplink "D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/TestAbrir.uproject" ]
+[2017.10.18-23.19.35:225][647]Warning: Starting HotReload took  0.0s.
+[2017.10.18-23.19.46:595][780]CompilerResultsLog: New page: Compilation - Oct 18, 2017, 1:19:46 PM
+[2017.10.18-23.19.46:596][780]CompilerResultsLog: Compiling game modules for hot reload
+[2017.10.18-23.19.46:596][780]CompilerResultsLog: ERROR: In D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Source\TestAbrir\ReadStuff.cpp: #include "GameFramework\Actor.h" contains backslashes ('\'), please use forward slashes ('/') instead.
+[2017.10.18-23.19.46:596][780]LogMainFrame: MainFrame: Module compiling took 11.382 seconds
+[2017.10.18-23.19.46:597][780]Warning: HotReload failed, recompile failed
+[2017.10.18-23.20.39:430][415]Candidate modules for hot reload:
+[2017.10.18-23.20.39:431][415]  TestAbrir
+[2017.10.18-23.20.39:432][415]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe TestAbrir -ModuleWithSuffix TestAbrir 301 Win64 Development -editorrecompile -canskiplink "D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/TestAbrir.uproject" ]
+[2017.10.18-23.20.39:443][415]Warning: Starting HotReload took  0.0s.
+[2017.10.18-23.21.38:485][729]CompilerResultsLog: New page: Compilation - Oct 18, 2017, 1:21:38 PM
+[2017.10.18-23.21.38:486][729]CompilerResultsLog: Compiling game modules for hot reload
+[2017.10.18-23.21.38:486][729]CompilerResultsLog: Parsing headers for TestAbrirEditor
+[2017.10.18-23.21.38:486][729]CompilerResultsLog:   Running UnrealHeaderTool "D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\TestAbrir.uproject" "D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\TestAbrirEditor\Development\TestAbrirEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.10.18-23.21.38:487][729]CompilerResultsLog: Reflection code generated for TestAbrirEditor in 17.8045442 seconds
+[2017.10.18-23.21.38:487][729]CompilerResultsLog: Performing 3 actions (2 in parallel)
+[2017.10.18-23.21.38:488][729]CompilerResultsLog: ReadStuff.cpp
+[2017.10.18-23.21.38:488][729]CompilerResultsLog: [2/3] Link UE4Editor-TestAbrir-301.dll
+[2017.10.18-23.21.38:488][729]CompilerResultsLog: [3/3] Link UE4Editor-TestAbrir-301.lib
+[2017.10.18-23.21.38:488][729]CompilerResultsLog:    Creando biblioteca D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-301.lib y objeto D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-301.exp
+[2017.10.18-23.21.38:525][729]CompilerResultsLog:    Creando biblioteca D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-301.suppressed.lib y objeto D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-301.suppressed.exp
+[2017.10.18-23.21.38:526][729]CompilerResultsLog: Total build time: 57.73 seconds (Local executor: 27.30 seconds)
+[2017.10.18-23.21.38:526][729]LogMainFrame: MainFrame: Module compiling took 59.102 seconds
+[2017.10.18-23.21.38:800][729]LogContentBrowser: Native class hierarchy updated for 'TestAbrir' in 0.0022 seconds. Added 2 classes and 2 folders.
+[2017.10.18-23.21.38:803][729]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.10.18-23.21.39:305][729]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 2390 classes and 506 folders.
+[2017.10.18-23.21.39:305][729]Display: HotReload took 59.9s.
+[2017.10.18-23.22.16:870][  1]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.18-23.22.18:775][116]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.18-23.22.18:834][116]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.18-23.22.19:046][116]LogPlayLevel: [PlayLevel] Compiling DefaultPawn_Blueprint before play...
+[2017.10.18-23.22.19:776][116]LogPlayLevel: PlayLevel: Blueprint regeneration took 976 ms (1 blueprints)
+[2017.10.18-23.22.19:776][116]PIE: New page: PIE session: Untitled_1 (Oct 18, 2017, 1:22:19 PM)
+[2017.10.18-23.22.19:777][116]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.10.18-23.22.19:785][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007703s)
+[2017.10.18-23.22.19:786][116]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.18-23.22.19:787][116]LogPlayLevel: PIE: World Init took: (0.001679s)
+[2017.10.18-23.22.19:788][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.010838s)
+[2017.10.18-23.22.19:848][116]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-23.22.19:862][116]LogInit: FAudioDevice initialized.
+[2017.10.18-23.22.19:905][116]LogLoad: Game class is 'NewGameMode_C'
+[2017.10.18-23.22.19:908][116]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.10.18-18.22.19
+[2017.10.18-23.22.19:908][116]LogWorld: Bringing up level for play took: 0.001992
+[2017.10.18-23.22.19:911][116]LogTemp: Warning: Esto funciono
+[2017.10.18-23.22.19:912][116]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.924
+[2017.10.18-23.22.50:634][878]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.034
+[2017.10.18-23.22.50:636][878]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DefaultPawn_Blueprint] ([1] browsable assets)...
+[2017.10.18-23.22.50:660][878]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DefaultPawn_Blueprint.DefaultPawn_Blueprint]
+[2017.10.18-23.22.50:660][878]OBJ SavePackage: Finished generating thumbnails for package [/Game/DefaultPawn_Blueprint]
+[2017.10.18-23.22.50:660][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_Blueprint" FILE="D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/Autosaves/Game/DefaultPawn_Blueprint_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.10.18-23.22.50:836][878]LogSavePackage: Save=123.17ms
+[2017.10.18-23.22.50:837][878]LogSavePackage: Moving 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/DefaultPawn_Blueprint_Auto4D9C2A41C4FC529A603E0708D04920549.tmp' to 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/Autosaves/Game/DefaultPawn_Blueprint_Auto4.uasset'
+[2017.10.18-23.22.50:839][878]LogSavePackage: Display: Finished SavePackage D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/Autosaves/Game/DefaultPawn_Blueprint_Auto4.uasset
+[2017.10.18-23.22.50:839][878]LogFileHelpers: Auto-saving content packages took 0.204
+[2017.10.18-23.34.32:304][ 81]Candidate modules for hot reload:
+[2017.10.18-23.34.32:305][ 81]  TestAbrir
+[2017.10.18-23.34.32:305][ 81]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe TestAbrir -ModuleWithSuffix TestAbrir 4860 Win64 Development -editorrecompile -canskiplink "D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/TestAbrir.uproject" ]
+[2017.10.18-23.34.32:314][ 81]Warning: Starting HotReload took  0.0s.
+[2017.10.18-23.35.21:504][667]CompilerResultsLog: New page: Compilation - Oct 18, 2017, 1:35:21 PM
+[2017.10.18-23.35.21:504][667]CompilerResultsLog: Compiling game modules for hot reload
+[2017.10.18-23.35.21:504][667]CompilerResultsLog: Parsing headers for TestAbrirEditor
+[2017.10.18-23.35.21:505][667]CompilerResultsLog:   Running UnrealHeaderTool "D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\TestAbrir.uproject" "D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\TestAbrirEditor\Development\TestAbrirEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.10.18-23.35.21:505][667]CompilerResultsLog: Reflection code generated for TestAbrirEditor in 11.2446645 seconds
+[2017.10.18-23.35.21:506][667]CompilerResultsLog: Performing 4 actions (2 in parallel)
+[2017.10.18-23.35.21:506][667]CompilerResultsLog: ReadStuff.cpp
+[2017.10.18-23.35.21:506][667]CompilerResultsLog: ReadStuff.gen.cpp
+[2017.10.18-23.35.21:506][667]CompilerResultsLog: [3/4] Link UE4Editor-TestAbrir-4860.dll
+[2017.10.18-23.35.21:506][667]CompilerResultsLog: [4/4] Link UE4Editor-TestAbrir-4860.lib
+[2017.10.18-23.35.21:507][667]CompilerResultsLog:    Creando biblioteca D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-4860.lib y objeto D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-4860.exp
+[2017.10.18-23.35.21:507][667]CompilerResultsLog:    Creando biblioteca D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-4860.suppressed.lib y objeto D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-4860.suppressed.exp
+[2017.10.18-23.35.21:508][667]CompilerResultsLog: Total build time: 48.33 seconds (Local executor: 27.31 seconds)
+[2017.10.18-23.35.21:509][667]LogMainFrame: MainFrame: Module compiling took 49.212 seconds
+[2017.10.18-23.35.21:711][667]LogContentBrowser: Native class hierarchy updated for 'TestAbrir' in 0.0024 seconds. Added 2 classes and 2 folders.
+[2017.10.18-23.35.21:715][667]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.10.18-23.35.22:219][667]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2390 classes and 506 folders.
+[2017.10.18-23.35.22:219][667]Display: HotReload took 49.9s.
+[2017.10.18-23.35.39:247][649]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.18-23.35.39:265][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.18-23.35.39:265][649]PIE: New page: PIE session: Untitled_1 (Oct 18, 2017, 1:35:39 PM)
+[2017.10.18-23.35.39:265][649]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.10.18-23.35.39:283][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002849s)
+[2017.10.18-23.35.39:285][649]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.18-23.35.39:285][649]LogPlayLevel: PIE: World Init took: (0.002128s)
+[2017.10.18-23.35.39:286][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.020075s)
+[2017.10.18-23.35.39:385][649]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-23.35.39:399][649]LogInit: FAudioDevice initialized.
+[2017.10.18-23.35.39:452][649]LogLoad: Game class is 'NewGameMode_C'
+[2017.10.18-23.35.39:454][649]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2017.10.18-18.35.39
+[2017.10.18-23.35.39:455][649]LogWorld: Bringing up level for play took: 0.002053
+[2017.10.18-23.35.39:458][649]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.47
+[2017.10.18-23.36.02:868][ 53]LogTemp: Warning: Gg WP
+[2017.10.18-23.36.03:484][ 90]LogTemp: Warning: Gg WP
+[2017.10.18-23.36.03:685][102]LogTemp: Warning: Gg WP
+[2017.10.18-23.36.03:868][113]LogTemp: Warning: Gg WP
+[2017.10.18-23.36.04:034][123]LogTemp: Warning: Gg WP
+[2017.10.18-23.36.04:218][134]LogTemp: Warning: Gg WP
+[2017.10.18-23.36.04:368][143]LogTemp: Warning: Gg WP
+[2017.10.18-23.36.04:551][154]LogTemp: Warning: Gg WP
+[2017.10.18-23.43.51:593][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultPawn_Blueprint" FILE="D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Content/DefaultPawn_Blueprint.uasset" SILENT=true
+[2017.10.18-23.43.51:890][632]LogSavePackage: Save=282.88ms
+[2017.10.18-23.43.51:890][632]LogSavePackage: Moving 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/DefaultPawn_Blueprint257D855D4792951737A7629F42D0B897.tmp' to 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Content/DefaultPawn_Blueprint.uasset'
+[2017.10.18-23.43.51:893][632]LogSavePackage: Display: Finished SavePackage D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Content/DefaultPawn_Blueprint.uasset
+[2017.10.18-23.43.51:897][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewGameMode" FILE="D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Content/NewGameMode.uasset" SILENT=true
+[2017.10.18-23.43.52:308][632]LogSavePackage: Save=376.33ms
+[2017.10.18-23.43.52:308][632]LogSavePackage: Moving 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Saved/NewGameModeCB336D6D44FF21D22277069B16F5A0F8.tmp' to 'D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Content/NewGameMode.uasset'
+[2017.10.18-23.43.52:311][632]LogSavePackage: Display: Finished SavePackage D:/Ciclo 7/DP2/Pruebas Unreal/TestAbrir/Content/NewGameMode.uasset
+[2017.10.18-23.43.53:441][632]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.18-23.43.59:484][632]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.18-23.43.59:503][633]Cmd: QUIT_EDITOR
+[2017.10.18-23.44.02:033][633]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.18-23.44.02:980][633]LogExit: Preparing to exit.

@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TestAbrir-2873.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\TestAbrir\ReadStuff.cpp.obj"
+"D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\TestAbrir\TestAbrir.cpp.obj"
+"D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\TestAbrir\TestAbrirGameModeBase.cpp.obj"
+"D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\TestAbrir\ReadStuff.gen.cpp.obj"
+"D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\TestAbrir\TestAbrir.init.gen.cpp.obj"
+"D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\TestAbrir\TestAbrirGameModeBase.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\TestAbrir\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-2873.lib"

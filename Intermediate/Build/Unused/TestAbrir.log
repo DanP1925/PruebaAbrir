@@ -1,0 +1,12 @@
+﻿  Compiling game modules for hot reload
+  Parsing headers for TestAbrirEditor
+    Running UnrealHeaderTool "D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\TestAbrir.uproject" "D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\TestAbrirEditor\Development\TestAbrirEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for TestAbrirEditor in 23.7966403 seconds
+  Performing 3 actions (2 in parallel)
+  ReadStuff.cpp
+  [2/3] Link UE4Editor-TestAbrir-6287.dll
+  [3/3] Link UE4Editor-TestAbrir-6287.lib
+     Creando biblioteca D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-6287.lib y objeto D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-6287.exp
+     Creando biblioteca D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-6287.suppressed.lib y objeto D:\Ciclo 7\DP2\Pruebas Unreal\TestAbrir\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TestAbrir-6287.suppressed.exp
+  Deploying TestAbrirEditor Win64 Development...
+  Total build time: 370.67 seconds (Local executor: 235.01 seconds)
